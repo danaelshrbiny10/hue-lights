@@ -1,7 +1,7 @@
 from cryptography.fernet import Fernet
 
 
-bridge_ip_address = "192.168.1.11"
+bridge_ip_address = "fdc8:cc8:57a8:1600:3074:2d18:b249:b3b5"
 
 
 key = Fernet.generate_key()
